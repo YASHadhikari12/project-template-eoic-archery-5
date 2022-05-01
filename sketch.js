@@ -62,7 +62,7 @@ function draw() {
   background(189);
 
   //write a correct line of code to display the background image
-  
+  background.display()
 
   Engine.update(engine);
 

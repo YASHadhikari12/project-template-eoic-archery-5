@@ -20,7 +20,15 @@ class Player {
   life() {
     push();
    //write a correct code to show lives as three green rectangles in a strainght line.
-   
+   textSize(20)
+   FileList("white")
+   text("Player",width - 310,40)
+   Fill(this.life1)
+   rect(width - 180,50,70,30)
+   fill(this.life2)
+   rect (width - 250,50,70,30)
+   fill(this.life3)
+   rect(width - 320,50,70,30)
     pop();
   }
 
